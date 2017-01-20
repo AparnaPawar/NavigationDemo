@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/circle_area"
+            android:checked="false"
+            android:title="@string/circle_area_string" />
+
+
+        <item
+            android:id="@+id/notes_demo"
+            android:checked="false"
+            android:title="Notes Demo" />
+
+        <item
+            android:id="@+id/armstrong_number"
+            android:checked="false"
+            android:title="ArmStrong Number" />
+
+        <item
+            android:id="@+id/arithmatic_operation"
+            android:checked="false"
+            android:title="Arithmatic Operation" />
+
+
+        <item
+            android:id="@+id/array2d"
+            android:checked="false"
+            android:title="Array2D" />
+
+
+        <item
+            android:id="@+id/arrayoperation"
+            android:checked="false"
+            android:title="ArrayOperation" />
+
+
+
+        <item
+            android:id="@+id/gross_salary_calculation"
+            android:checked="false"
+            android:title="Gross Salary Calculation" />
+
+        <item
+            android:id="@+id/check_character"
+            android:checked="false"
+            android:title="Check Character" />
+
+
+        <item
+            android:id="@+id/compare_string"
+            android:checked="false"
+            android:title="Compare String" />
+
+
+        <item
+            android:id="@+id/compound_interest"
+            android:checked="false"
+            android:title="Compound Interest" />
+
+
+        <item
+            android:id="@+id/conversion_length"
+            android:checked="false"
+            android:title="Conversion Length" />
+
+        <item
+            android:id="@+id/driver_insurance"
+            android:checked="false"
+            android:title="Driver Insurance" />
+
+        <item
+            android:id="@+id/even_odd"
+            android:checked="false"
+            android:title="Even Odd Number" />
+
+        <item
+            android:id="@+id/grade_steel"
+            android:checked="false"
+            android:title="Grade Steel" />
+
+        <item
+            android:id="@+id/insurance_company"
+            android:checked="false"
+            android:title="Insurance Company" />
+
+        <item
+            android:id="@+id/telephony_bill"
+            android:checked="false"
+            android:title="Telephony Bill" />
+
+        <item
+            android:id="@+id/mycalculator"
+            android:checked="false"
+            android:title="My Calculator" />
+
+        <item
+            android:id="@+id/randomnumber"
+            android:checked="false"
+            android:title="Random Number" />
+
+        <item
+            android:id="@+id/simpleinterest"
+            android:checked="false"
+            android:title="Simple Interest" />
+
+
+        <item
+            android:id="@+id/studentgrade"
+            android:checked="false"
+            android:title="Student Grade" />
+        <item
+            android:id="@+id/swappingarrayelements"
+            android:checked="false"
+            android:title="Swapping Array Elements" />
+
+        <item
+            android:id="@+id/calculatetemperature"
+            android:checked="false"
+            android:title="Calculate Temperature" />
+        <item
+            android:id="@+id/tictactoe"
+            android:checked="false"
+            android:title="Tic Tac Toe" />
+
+
+        <item
+            android:id="@+id/arraytraverse"
+            android:checked="false"
+            android:title="Array Traverse" />
+
+
+    </group>
+</menu>

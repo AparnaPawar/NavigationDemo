@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Sent mail -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a No"
+        android:id="@+id/txt_enterno"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_area"
+
+        android:ems="10"
+        android:layout_alignBottom="@+id/txt_enterno"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_result"
+        android:ems="10"
+        android:layout_below="@+id/txt_enterno"
+
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/btn_result"
+        android:layout_below="@+id/edt_result"
+
+        android:layout_marginTop="38dp" />
+
+
+</RelativeLayout>

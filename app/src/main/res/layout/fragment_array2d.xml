@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt00"
+        android:ems="2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt01"
+        android:ems="2"
+        android:layout_alignTop="@+id/edt00"
+        android:layout_toRightOf="@+id/edt00"
+        android:layout_toEndOf="@+id/edt00"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt02"
+        android:ems="2"
+        android:layout_alignTop="@+id/edt01"
+        android:layout_alignLeft="@+id/edt22"
+        android:layout_alignStart="@+id/edt22" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt10"
+        android:ems="2"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/edt01"
+        android:layout_alignLeft="@+id/edt01"
+        android:layout_alignStart="@+id/edt01" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt11"
+        android:ems="2"
+        android:layout_above="@+id/edt20"
+        android:layout_toLeftOf="@+id/edt01"
+        android:layout_toStartOf="@+id/edt01" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt12"
+        android:ems="2"
+        android:layout_above="@+id/edt20"
+        android:layout_alignLeft="@+id/edt02"
+        android:layout_alignStart="@+id/edt02" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt20"
+        android:ems="2"
+        android:layout_below="@+id/edt10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt21"
+        android:ems="2"
+        android:layout_alignBottom="@+id/edt20"
+        android:layout_alignLeft="@+id/edt01"
+        android:layout_alignStart="@+id/edt01" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt22"
+        android:ems="2"
+        android:layout_alignTop="@+id/edt21"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix A"
+        android:id="@+id/btnA"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/edt21"
+        android:layout_alignLeft="@+id/edt21"
+        android:layout_alignStart="@+id/edt21" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix B"
+        android:id="@+id/btnB"
+        android:layout_alignTop="@+id/btnA"
+        android:layout_toRightOf="@+id/edt22"
+        android:layout_toEndOf="@+id/edt22" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix Multiplication"
+        android:id="@+id/btnMultipication"
+        android:layout_below="@+id/btnA"
+        android:layout_alignLeft="@+id/btnA"
+        android:layout_alignStart="@+id/btnA"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix Addition"
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/btnMultipication"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>
